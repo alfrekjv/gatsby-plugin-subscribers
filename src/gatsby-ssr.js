@@ -4,7 +4,7 @@ exports.onRenderBody = ({ setHeadComponents }, pluginOptions) => {
   if (process.env.NODE_ENV === `production`) {
     return setHeadComponents([
       <script
-        key={`gatsby-plugin-suscribers`}
+        key={`gatsby-plugin-subscribers`}
         dangerouslySetInnerHTML={{
           __html: `
             <script type="text/javascript">
