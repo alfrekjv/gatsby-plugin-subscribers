@@ -3,7 +3,13 @@
 Easily add Subscribers.com Verification ID to your Gatsby site.
 
 ## Install
+
+### NPM
 `npm install --save gatsby-plugin-suscribers`
+
+### Yarn
+
+`yarn add gatsby-plugin-suscribers`
 
 ## How to use
 
